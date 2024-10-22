@@ -38,8 +38,11 @@ dıkdortgen.AlanHesapla();
 ## Örnek Çıktı:
 
 Üçgenin alanı:180
+-------------------------------
 Karenin alanı:224
+--------------------------------
 Dikdörtgenin alanı:600
+---------------------------------
 
 ## Kullanılan Araç ve Teknolojiler
 Programlama Dili: C# IDE: Visual Studio
