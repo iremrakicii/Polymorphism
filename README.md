@@ -18,9 +18,6 @@ Bu proje, C# dilinde polimorfizm (çok biçimlilik) konseptini kullanarak temel 
 
 Polimorfizm sayesinde, **BaseGeometrikSekil** sınıfından türetilen her bir sınıf, kendi alan hesaplamasını yaparken aynı metodu kullanmaktadır. Örneğin, `BaseGeometrikSekil` türünden bir nesne `Kare`, `Dikdörtgen` ya da `Ucgen` sınıfı olarak davranabilir ve her bir şekil için doğru alan hesaplaması yapılır.
 
-## Kullanılan Araç ve Teknolojiler
-Programlama Dili: C# IDE: Visual Studio
-
 ## Kod Örneği
 
 ```csharp
@@ -36,13 +33,16 @@ Console.WriteLine("------------------------------------------");
 
 BaseGeometrikSekil dıkdortgen = new Dıkdortgen(20, 30);
 dıkdortgen.AlanHesapla();
+```
 
 ## Örnek Çıktı:
+
 Üçgenin alanı:180
-------------------------------------------
 Karenin alanı:224
-------------------------------------------
 Dikdörtgenin alanı:600
+
+## Kullanılan Araç ve Teknolojiler
+Programlama Dili: C# IDE: Visual Studio
 
 
 
